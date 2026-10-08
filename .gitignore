@@ -7,12 +7,6 @@
 **/.DS_Store
 Thumbs.db
 
-# Reading originals and course data are kept outside the public repository
-**/textbook/
-**/lecture/
-**/data/
-Economic Modeling/Becker crime and punishment.md
-
 # Local credentials and environment files
 .env
 .env.*

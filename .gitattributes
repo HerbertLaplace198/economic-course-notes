@@ -1,0 +1,8 @@
+*.pdf binary
+*.epub binary
+*.ppt binary
+*.dta binary
+*.DTA binary
+*.png binary
+Econometric/textbook/Further[[:space:]]Mathematics[[:space:]]for[[:space:]]Economic[[:space:]]Analysis[[:space:]](Prof[[:space:]]Knut[[:space:]]Sydsaeter,[[:space:]]Prof[[:space:]]Peter[[:space:]]Hammond[[:space:]]etc.)[[:space:]](z-library.sk,[[:space:]]1lib.sk,[[:space:]]z-lib.sk).pdf filter=lfs diff=lfs merge=lfs -text
+Macroeconomic/textbook/Economic[[:space:]]Dynamics[[:space:]]in[[:space:]]Discrete[[:space:]]Time_2ed_Miao2020.epub filter=lfs diff=lfs merge=lfs -text
