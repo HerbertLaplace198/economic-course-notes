@@ -1,29 +1,39 @@
-# Economic Course Notes
+# Economic Course Notes and Supporting Materials
 
-Economics study notes in Markdown, organized into microeconomics, macroeconomics, and econometrics. The notes use English prose, LaTeX mathematics, and Obsidian links; some homework explanations also include Chinese.
+Economics course notes and accompanying textbooks, lecture files, datasets, and reading materials, organized into microeconomics, macroeconomics, econometrics, and economic modeling.
 
-经济学课程学习笔记，按微观经济学、宏观经济学和计量经济学整理。保留原有目录、公式、Obsidian 双链和笔记模板。部分页面仍在完善中。
+经济学课程笔记及配套资料，包括教材、课件、数据与阅读材料。保留原有目录、LaTeX 公式、Obsidian 双向链接和笔记模板。
 
-## Browse the notes
+## Browse the repository
 
-| Course | Entry point | Main material |
+| Course | Notes or reading entry | Supporting material |
 | --- | --- | --- |
-| Microeconomics | [Microeconomic](Microeconomic/Microeconomic.md) | Preferences, utility, optimization, and mathematical foundations |
-| Macroeconomics | [Macroeconomic](Macroeconomic/Macroeconomic.md) | Initial course outline; content is still being developed |
-| Econometrics | [Econometric](Econometric/Econometric.md) | Simple regression, OLS assumptions, estimator properties, and homework |
+| Microeconomics | [Microeconomic](Microeconomic/Microeconomic.md) | [Textbooks](Microeconomic/textbook/) · [Lectures](Microeconomic/lecture/) |
+| Macroeconomics | [Macroeconomic](Macroeconomic/Macroeconomic.md) | [Textbooks](Macroeconomic/textbook/) |
+| Econometrics | [Econometric](Econometric/Econometric.md) | [Textbooks](Econometric/textbook/) · [Lectures](Econometric/lecture/) · [Datasets](Econometric/data/) |
+| Economic modeling | [Becker: Crime and Punishment](Economic%20Modeling/Becker%20crime%20and%20punishment.md) | Reading text, translation, and annotations |
 
-See the [complete note index](INDEX.md) for direct links to individual pages. Reusable note structures are in [Templates](Templates/).
+See the [complete note index](INDEX.md) and [supporting material index](MATERIALS.md). Reusable note structures are in [Templates](Templates/).
 
 ## Read with Obsidian
 
-Download or clone this repository, then open its folder as an Obsidian vault. This preserves navigation through `[[wikilinks]]`, embedded figures, callouts, and mathematics. GitHub can also display the Markdown files; use the index above for direct navigation.
+Open the downloaded or cloned repository folder as an Obsidian vault to use `[[wikilinks]]`, embedded figures, callouts, and mathematics. On GitHub, the indexes provide direct links to individual files.
 
-下载或克隆本仓库后，可以在 Obsidian 中将文件夹作为仓库打开。GitHub 网页上可通过课程目录和完整索引浏览；正文中的双链、图片嵌入和 callout 保留 Obsidian 格式。
+下载或克隆后，可在 Obsidian 中将文件夹作为仓库打开。GitHub 网页上可通过索引浏览文件；正文保留 Obsidian 格式。
 
-## Included material
+## Download large textbooks
 
-This repository contains 66 original Markdown files (including course entry pages and templates), six supporting diagrams, and one textbook excerpt referenced by the homework. Full textbooks, original lecture files, course datasets, and local application settings are excluded. A reading file containing the full text and translation of Becker's *Crime and Punishment: An Economic Approach* is also excluded.
+Two textbook files larger than 50 MiB use Git Large File Storage (Git LFS). To retrieve their full contents when cloning, install Git LFS first, then run:
 
-Two links in the preference-relation note refer to pages in a local copy of Jehle and Reny, *Advanced Microeconomic Theory*, 3rd edition (2011). That textbook is not included; the source references remain in the notes.
+```sh
+git lfs install
+git clone https://github.com/HerbertLaplace198/economic-course-notes.git
+```
 
-These are working study notes, and some entries are unfinished.
+For an existing clone, run `git lfs pull`. You can also open a large textbook's GitHub file page and use its download button. A GitHub source ZIP may contain LFS pointer files instead of those two textbooks.
+
+两份较大教材使用 Git LFS。克隆时需安装 Git LFS；已有克隆可运行 `git lfs pull`，也可在 GitHub 文件页下载。源代码 ZIP 中的这两份教材可能只是指针文件。
+
+## Contents
+
+The repository includes 67 original Markdown files (course notes, entry pages, templates, and a reading file), 20 textbooks, seven lecture files, 98 Stata datasets, and seven images. Local application settings and operating-system files are excluded.

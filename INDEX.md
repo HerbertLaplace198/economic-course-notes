@@ -1,6 +1,6 @@
 # Note Index
 
-Direct links to the Markdown notes included in this repository.
+Direct links to the Markdown notes and reading material included in this repository.
 
 ## Course overview
 
@@ -75,6 +75,10 @@ Direct links to the Markdown notes included in this repository.
 - [homework/Homework 1](Econometric/homework/Homework%201.md)
 - [notebook/01_Econometrics](Econometric/notebook/01_Econometrics.md)
 - [notebook/02_The Simple Regression Model](Econometric/notebook/02_The%20Simple%20Regression%20Model.md)
+
+## Economic Modeling
+
+- [Becker crime and punishment](Economic%20Modeling/Becker%20crime%20and%20punishment.md)
 
 ## Templates
 
